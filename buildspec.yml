@@ -10,3 +10,8 @@ phases:
     commands:
       - npm run build
       - npm run citest
+
+artifacts:
+  files:
+    - build/**/*
+  name: myname-$(date +%Y-%m-%d) 
